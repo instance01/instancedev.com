@@ -20,6 +20,10 @@ connect();
   <a class="active red item" data-tab="home">Home</a>
   <a class="blue item" data-tab="projects">Projects</a>
   <a class="green item" data-tab="contact">Contact</a>
+  <div class="right menu">
+  <a class="green item" href="bukkitstats/">BukkitStats</a>
+  <a class="green item" href="bukkitsnippets/">BukkitSnippets</a>
+  </div>
 </div>
 <div class="ui active tab" data-tab="home">
     <div class="content">
@@ -65,7 +69,7 @@ while($row = mysql_fetch_array($result)){
 <br><br>
 <hr>
 <footer>
-<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
+<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
 </footer>
 </div>
 </div>
@@ -164,7 +168,7 @@ while($row = mysql_fetch_array($result)){
     
     <br><br><hr>
     <footer>
-    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
+    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
     </footer>
 </div>
 
