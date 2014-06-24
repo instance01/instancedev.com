@@ -10,7 +10,9 @@ connect();
 <html>
 <head>
 <meta charset="utf-8">
-<title>InstanceLabs Development</title>
+<meta name="author" content="InstanceLabs">
+<meta name="description" content="Development and Project Website of InstanceLabs">
+<title>InstanceLabs Development Website</title>
 </head>
 <body>
 
@@ -52,7 +54,7 @@ while($row = mysql_fetch_array($result)){
 	$p4 = $row['type'];
 	$p5 = $row['projurl'];
 	$date = $row['date'];
-	$currentpost = '<div class="ui row"><div class="ui left floated two wide column"><a href="'.$p5.'"><img class="ui large left floated image" src="'.$p2.'"></a></div>';
+	$currentpost = '<div class="ui row"><div class="ui left floated two wide column"><a href="'.$p5.'"><img class="ui large left floated image" src="'.$p2.'" alt="'.$p1.' preview Image"></a></div>';
 	$currentpost .= '<div class="ui right floated two wide column"><h3>'.$p1.'</h3><h4><span class="ui small green button">'.$p4.'</span><a class="ui animated small teal button" href="'.$p5.'"><div class="visible content">Visit Project <i class="angle right icon"></i></div><div class="hidden content"><i class="right arrow icon"></i></div></a></h4>';
 	$currentpost .= '<p>'.$p3.'</p></div></div>';
 	echo($currentpost);
