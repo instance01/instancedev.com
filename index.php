@@ -166,10 +166,14 @@ while($row = mysql_fetch_array($result)){
         </div>
     </div>
     
-    <br><br><hr>
-    <footer>
-    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
-    </footer>
+    
+    <div class="ui row">
+        <br><br><br><br><hr>
+        <footer>
+        <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
+        </footer>
+    </div>
+    
 </div>
 
 </div>
