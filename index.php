@@ -93,89 +93,99 @@ while($row = mysql_fetch_array($result)){
 <br><br>
 </center>
 
+<div class="ui page grid">
+<div class="ui left floated two wide column"></div>
+<div class="ui left floated eleven wide column">
 <div class="ui two column page grid">
     <div class="ui row">
-    	<div class="ui right floated two wide column">
+    	<div class="ui left floated column rightaligned">
             Java
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated column">
         	<div class="ui-progressbar java"></div>
         </div>
     </div>
     
     <div class="ui row">
-        <div class="ui right floated two wide column">
+        <div class="ui left floated two wide column rightaligned">
             .NET (C#/VB)
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar dotnet"></div>
         </div>
     </div>
     
     <div class="ui row">
-        <div class="ui right floated two wide column">
+        <div class="ui left floated two wide column rightaligned">
             C++
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar cplusplus"></div>
         </div>
     </div>
     
     <div class="ui row">
-    	<div class="ui right floated two wide column">
+    	<div class="ui left floated two wide column rightaligned">
             Web (HTML5, CSS3, jQuery/JS, MySQL, PHP)
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar web"></div>
         </div>
     </div>
     
     <div class="ui row">
-    	<div class="ui right floated two wide column">
+    	<div class="ui left floated two wide column rightaligned">
             ActionScript/Flash
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar flash"></div>
         </div>
     </div>
     
     <div class="ui row">
-   		<div class="ui right floated two wide column">
+   		<div class="ui left floated two wide column rightaligned">
             AutoIt
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar autoit"></div>
         </div>
     </div>
     
     <div class="ui row">
-    	<div class="ui right floated two wide column">
+    	<div class="ui left floated two wide column rightaligned">
             Python
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar python"></div>
         </div>
     </div>
     
     <div class="ui row">
-   		<div class="ui right floated two wide column">
+   		<div class="ui left floated two wide column rightaligned">
         	Unity3D/Blender
         </div>
-    	<div class="ui left floated two wide column">
+    	<div class="ui right floated two wide column">
             <div class="ui-progressbar unity"></div>
         </div>
     </div>
-    
-    
-    <div class="ui row">
-        <br><br><br><br><hr>
-        <footer>
-        <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
-        </footer>
-    </div>
-    
+</div>
+</div>
+<div class="ui right floated four wide column"></div>
+
+<div class="ui row"></div>
+
+<div class="ui row">
+    <br><br><br><br><hr>
+    <footer>
+    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
+    </footer>
 </div>
 
+
+</div>
+
+    
+    
 </div>
 
 
@@ -231,8 +241,8 @@ $(document).ready(function(){
 	$(".dotnet").progressbar({value: 90});
 	$(".cplusplus").progressbar({value: 30});
 	$(".web").progressbar({value: 75});
-	$(".flash").progressbar({value: 60});
-	$(".autoit").progressbar({value: 20});
+	$(".flash").progressbar({value: 55});
+	$(".autoit").progressbar({value: 15});
 	$(".python").progressbar({value: 10});
 	$(".unity").progressbar({value: 35});
 });
