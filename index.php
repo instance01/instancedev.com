@@ -13,6 +13,61 @@ connect();
 <meta name="author" content="InstanceLabs">
 <meta name="description" content="Development and Project Website of InstanceLabs">
 <title>InstanceLabs Development Website</title>
+
+<!-- u so kewl u checked src -->
+
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="stylesheet" type="text/css" href="jquery-letterfx.min.css">
+<link rel="stylesheet" type="text/css" href="s/css/semantic.min.css">
+<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="jquery-letterfx.min.js"></script>
+<script type="text/javascript" src="s/javascript/s.js"></script>
+<script type="text/javascript" src="s/javascript/jquery.address.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	$('.header_').letterfx({"fx":"swirl", "fx_duration":"200ms"});
+	$('.main.menu').fadeOut(0);
+	$('.main.menu').fadeIn(1500);
+
+
+	$('.main.menu .item').tab();
+	$('a.red').click(function(e) {
+		$('.main.menu .item').tab('change tab', 'home');
+	});
+	$('a.blue').click(function(e) {
+		$('.main.menu .item').tab('change tab', 'projects');
+	});
+	$('a.green').click(function(e) {
+		$('.main.menu .item').tab('change tab', 'contact');
+	});
+	$('.about').click(function(e) {
+		$('.main.menu .item').tab('change tab', 'contact');
+	});
+	
+	$('.github').click(function(e) {
+		location.href = "https://github.com/instance01";
+	});
+	$('.skype').click(function(e) {
+		location.href = "skype:rubikonoff?chat";
+	});
+	$('.bukkit').click(function(e) {
+		location.href = "http://dev.bukkit.org/profiles/instancelabs/";
+	});
+
+	$(".java").progressbar({value: 90});
+	$(".dotnet").progressbar({value: 90});
+	$(".cplusplus").progressbar({value: 30});
+	$(".web").progressbar({value: 75});
+	$(".flash").progressbar({value: 55});
+	$(".autoit").progressbar({value: 15});
+	$(".python").progressbar({value: 10});
+	$(".unity").progressbar({value: 35});
+});
+
+</script>
+
 </head>
 <body>
 
@@ -181,72 +236,10 @@ while($row = mysql_fetch_array($result)){
     </footer>
 </div>
 
+</div>
 
 </div>
 
-    
-    
-</div>
 
-
-
-
-
-
-
-
-<!-- u so kewl u checked src -->
-
-<link rel="stylesheet" type="text/css" href="index.css">
-<link rel="stylesheet" type="text/css" href="jquery-letterfx.min.css">
-<link rel="stylesheet" type="text/css" href="s/css/semantic.min.css">
-<script type="text/javascript" src="jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-<script type="text/javascript" src="jquery-letterfx.min.js"></script>
-<script type="text/javascript" src="s/javascript/s.js"></script>
-<script type="text/javascript" src="s/javascript/jquery.address.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function(){
-	$('.header_').letterfx({"fx":"swirl", "fx_duration":"200ms"});
-	$('.main.menu').fadeOut(0);
-	$('.main.menu').fadeIn(1500);
-
-
-	$('.main.menu .item').tab();
-	$('a.red').click(function(e) {
-		$('.main.menu .item').tab('change tab', 'home');
-	});
-	$('a.blue').click(function(e) {
-		$('.main.menu .item').tab('change tab', 'projects');
-	});
-	$('a.green').click(function(e) {
-		$('.main.menu .item').tab('change tab', 'contact');
-	});
-	$('.about').click(function(e) {
-		$('.main.menu .item').tab('change tab', 'contact');
-	});
-	
-	$('.github').click(function(e) {
-		location.href = "https://github.com/instance01";
-	});
-	$('.skype').click(function(e) {
-		location.href = "skype:rubikonoff?chat";
-	});
-	$('.bukkit').click(function(e) {
-		location.href = "http://dev.bukkit.org/profiles/instancelabs/";
-	});
-
-	$(".java").progressbar({value: 90});
-	$(".dotnet").progressbar({value: 90});
-	$(".cplusplus").progressbar({value: 30});
-	$(".web").progressbar({value: 75});
-	$(".flash").progressbar({value: 55});
-	$(".autoit").progressbar({value: 15});
-	$(".python").progressbar({value: 10});
-	$(".unity").progressbar({value: 35});
-});
-
-</script>
 </body>
 </html>
