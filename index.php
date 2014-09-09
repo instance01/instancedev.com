@@ -76,6 +76,7 @@ $(document).ready(function(){
   <a class="blue item" data-tab="projects">Projects</a>
   <a class="green item" data-tab="contact">Contact</a>
   <div class="right menu">
+  <a class="green item" href="radio/">Radio</a>
   <a class="green item" href="bukkitstats/">BukkitStats</a>
   <a class="green item" href="bukkitsnippets/">BukkitSnippets</a>
   </div>
