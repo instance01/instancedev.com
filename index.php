@@ -79,7 +79,7 @@ $(document).ready(function(){
   <div class="right menu">
   <a class="green item" href="youtubedl/YoutubeDownloader.php">Youtube Download</a>
   <a class="green item" href="radio/">Radio</a>
-  <a class="green item" href="bukkitstats/">BukkitStats</a>
+  <a class="green item" href="http://instancelabs.eu5.org/bukkitstats/">BukkitStats</a>
   <a class="green item" href="bukkitsnippets/">BukkitSnippets</a>
   </div>
 </div>
