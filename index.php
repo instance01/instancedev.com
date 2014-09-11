@@ -24,6 +24,7 @@ connect();
 <script type="text/javascript" src="jquery-letterfx.min.js"></script>
 <script type="text/javascript" src="s/javascript/s.js"></script>
 <script type="text/javascript" src="s/javascript/jquery.address.js"></script>
+<script type="text/javascript" src="clear.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function(){

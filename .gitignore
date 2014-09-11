@@ -7,3 +7,5 @@ config.php
 _notes/
 s/
 Thumbs.db
+clear.js
+.htaccess
