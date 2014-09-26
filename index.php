@@ -79,7 +79,7 @@ $(document).ready(function(){
   <div class="right menu">
   <a class="green item" href="youtubedl/YoutubeDownloader.php">Youtube Download</a>
   <a class="green item" href="radio/">Radio</a>
-  <a class="green item" href="http://instancelabs.eu5.org/bukkitstats/">BukkitStats</a>
+  <a class="green item" href="bukkitstats/">BukkitStats</a>
   <a class="green item" href="bukkitsnippets/">BukkitSnippets</a>
   </div>
 </div>
@@ -127,7 +127,7 @@ while($row = mysql_fetch_array($result)){
 <br><br>
 <hr>
 <footer>
-<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
+<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
 </footer>
 </div>
 </div>
@@ -235,7 +235,7 @@ while($row = mysql_fetch_array($result)){
 <div class="ui row">
     <br><br><br><br><hr>
     <footer>
-    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a> &middot; <a href="http://instancelabs.eu5.org/">Old website</a></p>
+    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
     </footer>
 </div>
 
