@@ -26,6 +26,10 @@ body {
 	color: #FFFFFF;
 }
 
+h3 {
+	font-family: "Consolas", Times, serif;
+}
+
 .header{
 	position:absolute;
 	top: 40%;

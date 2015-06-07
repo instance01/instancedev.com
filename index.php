@@ -16,14 +16,14 @@ connect();
 
 <!-- u so kewl u checked src -->
 
-<link rel="stylesheet" type="text/css" href="index.css">
 <link rel="stylesheet" type="text/css" href="jquery-letterfx.min.css">
-<link rel="stylesheet" type="text/css" href="s/css/semantic.min.css">
+<link rel="stylesheet" type="text/css" href="s/s.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
 <script type="text/javascript" src="jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="jquery-letterfx.min.js"></script>
-<script type="text/javascript" src="s/javascript/s.js"></script>
-<script type="text/javascript" src="s/javascript/jquery.address.js"></script>
+<script type="text/javascript" src="s/jquery.address.js"></script>
+<script type="text/javascript" src="s/s.js"></script>
 <script type="text/javascript" src="clear.js"></script>
 <script type="text/javascript">
 
@@ -60,10 +60,9 @@ $(document).ready(function(){
 	$(".java").progressbar({value: 90});
 	$(".dotnet").progressbar({value: 90});
 	$(".cplusplus").progressbar({value: 30});
-	$(".web").progressbar({value: 75});
-	$(".flash").progressbar({value: 55});
-	$(".autoit").progressbar({value: 15});
-	$(".python").progressbar({value: 10});
+	$(".web").progressbar({value: 80});
+	$(".flash").progressbar({value: 50});
+	$(".python").progressbar({value: 20});
 	$(".unity").progressbar({value: 35});
 });
 
@@ -116,8 +115,8 @@ while($row = mysql_fetch_array($result)){
 	$p4 = $row['type'];
 	$p5 = $row['projurl'];
 	$date = $row['date'];
-	$currentpost = '<div class="ui row"><div class="ui left floated two wide column"><a href="'.$p5.'"><img class="ui large left floated image" src="'.$p2.'" alt="'.$p1.' preview Image"></a></div>';
-	$currentpost .= '<div class="ui right floated two wide column"><h3>'.$p1.'</h3><h4><span class="ui small green button">'.$p4.'</span><a class="ui animated small teal button" href="'.$p5.'"><div class="visible content">Visit Project <i class="angle right icon"></i></div><div class="hidden content"><i class="right arrow icon"></i></div></a></h4>';
+	$currentpost = '<div class="ui row"><div class="ui left floated column"><a href="'.$p5.'"><img class="ui large left floated image" src="'.$p2.'" alt="'.$p1.' preview Image"></a></div>';
+	$currentpost .= '<div class="ui right floated column"><h3>'.$p1.'</h3><h4><span class="ui small green button">'.$p4.'</span><a class="ui animated small teal button" href="'.$p5.'"><div class="visible content">Visit Project <i class="angle right icon"></i></div><div class="hidden content"><i class="right arrow icon"></i></div></a></h4>';
 	$currentpost .= '<p>'.$p3.'</p></div></div>';
 	echo($currentpost);
 	$count += 1;
@@ -127,27 +126,30 @@ while($row = mysql_fetch_array($result)){
 <br><br>
 <hr>
 <footer>
-<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
+<p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2015 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
 </footer>
 </div>
+<br>
 </div>
 <div class="ui tab" data-tab="contact">
 <center>
-<i class="circular huge github alternate icon link icon rotate"></i>
+<i class="circular huge github icon link icon rotate"></i>
 <i class="circular huge skype icon link icon rotate"></i>
-<i class="circular huge icon link icon rotate"><img src="bukkit_gray.png" class="bukkit"></i>
+<i class="circular huge icon link icon rotate"><img src="bukkit_gray.png" width="60" alt="Bukkit" class="bukkit"></i>
 <i class="circular huge icon link icon">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="3RUB6894S84TY">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<input type="image" width="60" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal">
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 </i>
 
 <br>
-<p>I'm a passionate developer programming in the following languages.</p>
+<p>I'm just a developer doing random things. I love EDM, especially xKito's channel.</p>
 <p>If you are interested in private projects, contact me on Skype.</p>
+<br>
+<p>I know stuff in the following programming languages:</p>
 <br><br>
 </center>
 
@@ -165,64 +167,55 @@ while($row = mysql_fetch_array($result)){
     </div>
     
     <div class="ui row">
-        <div class="ui left floated two wide column rightaligned">
+        <div class="ui left floated column rightaligned">
             .NET (C#/VB)
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar dotnet"></div>
         </div>
     </div>
     
     <div class="ui row">
-        <div class="ui left floated two wide column rightaligned">
+        <div class="ui left floated column rightaligned">
             C++
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar cplusplus"></div>
         </div>
     </div>
     
     <div class="ui row">
-    	<div class="ui left floated two wide column rightaligned">
+    	<div class="ui left floated column rightaligned">
             Web (HTML5, CSS3, jQuery/JS, MySQL, PHP)
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar web"></div>
         </div>
     </div>
     
     <div class="ui row">
-    	<div class="ui left floated two wide column rightaligned">
+    	<div class="ui left floated column rightaligned">
             ActionScript/Flash
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar flash"></div>
         </div>
     </div>
     
     <div class="ui row">
-   		<div class="ui left floated two wide column rightaligned">
-            AutoIt
-        </div>
-    	<div class="ui right floated two wide column">
-            <div class="ui-progressbar autoit"></div>
-        </div>
-    </div>
-    
-    <div class="ui row">
-    	<div class="ui left floated two wide column rightaligned">
+    	<div class="ui left floated column rightaligned">
             Python
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar python"></div>
         </div>
     </div>
     
     <div class="ui row">
-   		<div class="ui left floated two wide column rightaligned">
+   		<div class="ui left floated column rightaligned">
         	Unity3D/Blender
         </div>
-    	<div class="ui right floated two wide column">
+    	<div class="ui right floated column">
             <div class="ui-progressbar unity"></div>
         </div>
     </div>
@@ -235,7 +228,7 @@ while($row = mysql_fetch_array($result)){
 <div class="ui row">
     <br><br><br><br><hr>
     <footer>
-    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2014 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
+    <p style="font-size: 11px">Copyright &copy; InstanceLabs 2013-2015 &middot; <a href="http://github.com/instance01/">Github</a> &middot; <a href="http://dev.bukkit.org/profiles/instancelabs/">Bukkit Dev</a></p>
     </footer>
 </div>
 
